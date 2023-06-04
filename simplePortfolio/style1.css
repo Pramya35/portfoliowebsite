@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar
+{
+    background-color:#bf4c5bda;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+#nav-list{
+    display: flex;
+    flex-direction: row ;
+
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 2rem;
+
+}
+a::hover{
+    background-color: rgba(214, 230, 231, 0.277);
+}
+#homeSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    background-image: linear-gradient(620deg,#3a3d40 0% ,#181719 100% );
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700px;
+
+}
+#homeSection >p
+{
+color:#bf4c5bda;
+font-size:2rem;
+font-style:italic;
+font: weight 400px;
+}
+.projects{
+    text-align: center;
+    background-color: #45567d;
+
+}
